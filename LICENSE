@@ -16,9 +16,17 @@ You MAY NOT, without prior written permission from the author:
 - distribute, publish, sell, sublicense or share the software or its source
   code, original or modified, including by re-uploading it elsewhere.
 
-Third-party components keep their own licenses. In particular, Lagoon includes
-mediaremote-adapter (https://github.com/ungive/mediaremote-adapter), covered by
-the BSD 3-Clause License, whose notice is included inside the app.
+Third-party components are not covered by this license and keep their own
+licenses. Lagoon includes:
+- mediaremote-adapter (https://github.com/ungive/mediaremote-adapter),
+  Copyright (c) 2025 Jonas van den Berg and contributors, BSD 3-Clause License;
+- Sparkle (https://sparkle-project.org), Copyright (c) 2006-2013 Andy Matuschak
+  and other contributors, MIT License, including bsdiff (BSD), sais-lite (MIT),
+  ed25519 (zlib) and SUSignatureVerifier (BSD).
+Their full license texts are included inside the app (Settings > General >
+Credits and licenses, or Lagoon.app/Contents/Resources/ThirdPartyNotices.txt).
+Lagoon also uses data from online services under their own terms: weather data
+by Open-Meteo.com (CC BY 4.0) and lyrics from LRCLIB (https://lrclib.net).
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,

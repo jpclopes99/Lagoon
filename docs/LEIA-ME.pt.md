@@ -92,4 +92,4 @@ Qualquer pessoa pode abrir uma issue no GitHub para reportar um problema ou suge
 
 ## Licença
 
-**Todos os direitos reservados** (ficheiro [LICENSE](../LICENSE)). Qualquer pessoa pode descarregar, instalar e usar a Lagoon de graça, mas não é open source: o código não é publicado e é proibido copiar, alterar ou distribuir a app sem autorização escrita do autor. O componente de terceiros mediaremote-adapter mantém a sua própria licença (BSD 3-Clause).
+**Todos os direitos reservados** (ficheiro [LICENSE](../LICENSE)). Qualquer pessoa pode descarregar, instalar e usar a Lagoon de graça, mas não é open source: o código não é publicado e é proibido copiar, alterar ou distribuir a app sem autorização escrita do autor. Os componentes de terceiros não estão abrangidos por ela e mantêm as suas licenças: mediaremote-adapter (BSD 3-Clause) e Sparkle (MIT); os dados meteorológicos são do Open-Meteo (CC BY 4.0) e as letras do LRCLIB.
