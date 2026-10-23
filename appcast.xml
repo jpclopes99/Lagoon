@@ -7,12 +7,21 @@
     <language>en</language>
     <!-- versões (a mais recente primeiro; acrescentadas pelo scripts/release.sh) -->
     <item>
+      <title>Lagoon 1.0.7</title>
+      <pubDate>Fri, 23 Oct 2026 21:09:46 +0100</pubDate>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>Lagoon now checks for updates a few seconds after you unlock the screen, so the update notification shows up while you are looking.</p>]]></description>
+      <enclosure url="https://github.com/jpclopes99/Lagoon/releases/download/v1.0.7/Lagoon.zip" type="application/octet-stream" sparkle:edSignature="zSaXtYpEo3TF+lPdBe7DhHM9ccdjBQQLnMPhsBri0GsGOijAmWNCh+lC30gFTjVzP4u9TFruAow7fuSgVXrSBw==" length="6067430"/>
+    </item>
+    <item>
       <title>Lagoon 1.0.6</title>
       <pubDate>Fri, 23 Oct 2026 19:33:27 +0100</pubDate>
       <sparkle:version>8</sparkle:version>
       <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>O que mudou</p>]]></description>
+      <description><![CDATA[<p>Maintenance release.</p>]]></description>
       <enclosure url="https://github.com/jpclopes99/Lagoon/releases/download/v1.0.6/Lagoon.zip" type="application/octet-stream" sparkle:edSignature="Rbkv4hR9ADtA2FIdccrCD0FmUyjQoLmbdmsQx87gO0/CWtKUKL1fKGmVk/Sch2WBjFFCsu4sPAQ9qpRBcfi1Dw==" length="6065275"/>
     </item>
     <item>
