@@ -1,0 +1,27 @@
+Lagoon
+Copyright (c) 2026 Joao Correlo. All rights reserved.
+
+This software and its source code are the property of the author. Lagoon is
+free to use, but it is NOT open source: the source code is not published.
+
+You MAY:
+- download, install and use Lagoon on your own Macs, free of charge, using
+  the official releases;
+- open issues on GitHub to report problems or suggest new features.
+
+You MAY NOT, without prior written permission from the author:
+- copy, reproduce, reverse engineer or reuse the software or its source code,
+  in whole or in part, in any other project;
+- modify the software or create derivative works based on it;
+- distribute, publish, sell, sublicense or share the software or its source
+  code, original or modified, including by re-uploading it elsewhere.
+
+Third-party components keep their own licenses. In particular, Lagoon includes
+mediaremote-adapter (https://github.com/ungive/mediaremote-adapter), covered by
+the BSD 3-Clause License, whose notice is included inside the app.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM THE
+USE OF THE SOFTWARE.
