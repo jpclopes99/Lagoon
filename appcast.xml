@@ -8,12 +8,12 @@
     <!-- versões (a mais recente primeiro; acrescentadas pelo scripts/release.sh) -->
     <item>
       <title>Lagoon 1.0.0</title>
-      <pubDate>Fri, 23 Oct 2026 21:57:39 +0100</pubDate>
-      <sparkle:version>14</sparkle:version>
+      <pubDate>Fri, 23 Oct 2026 22:15:55 +0100</pubDate>
+      <sparkle:version>15</sparkle:version>
       <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<p>First public release of Lagoon: a Dynamic Island for the Mac notch, with music, calendar, timers, notifications, files, calls, AI agents, plugins and automatic updates.</p>]]></description>
-      <enclosure url="https://github.com/jpclopes99/Lagoon/releases/download/v1.0.0/Lagoon.zip" type="application/octet-stream" sparkle:edSignature="soW5xRr4lQgI7+mXpLjBqPIGh6edEeJbQS/wkzvNEp6MnxMr+oh21WPBw6AxoNAlFaFJTUBwONmEfQcHEuMBAg==" length="6018704"/>
+      <enclosure url="https://github.com/jpclopes99/Lagoon/releases/download/v1.0.0/Lagoon.zip" type="application/octet-stream" sparkle:edSignature="K4Ljxd/ghxyrctUr/PL6E3B1G1dmSzHlq1uv9kHxwDVcxVI8Yv5m2QhoSB+T1G6U1NmbxBvCcmkCcFAPRdXiAw==" length="6018829"/>
     </item>
   </channel>
 </rss>
