@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Lagoon</title>
+    <link>https://github.com/jpclopes99/Lagoon</link>
+    <description>Lagoon updates</description>
+    <language>en</language>
+    <!-- versões (a mais recente primeiro; acrescentadas pelo scripts/release.sh) -->
+    <item>
+      <title>Lagoon 1.0.0</title>
+      <pubDate>Fri, 23 Oct 2026 18:51:41 +0100</pubDate>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>First public release of Lagoon.</p>]]></description>
+      <enclosure url="https://github.com/jpclopes99/Lagoon/releases/download/v1.0.0/Lagoon.zip" type="application/octet-stream" sparkle:edSignature="cu1yneA1YJapEbteft4CX/cmCU+6ZpOt6HAm9sZViV3eNgJEFAyqzSIaMZ0LqU8z/eviTFQFe11gikbw8ZLDAQ==" length="6054608"/>
+    </item>
+  </channel>
+</rss>
