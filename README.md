@@ -28,6 +28,7 @@
 - [Settings](#settings)
 - [Privacy](#privacy)
 - [Troubleshooting](#troubleshooting)
+- [Acknowledgements](#acknowledgements)
 - [Feedback](#feedback)
 - [License](#license)
 
@@ -112,7 +113,6 @@ Works with **any player**: Spotify, Apple Music, YouTube Music, and video or mus
 - **Recents** — the albums, playlists and Liked Songs you played recently on Spotify, one click to play.
 - **Like** button for Spotify (works both ways with the Spotify app) and Apple Music.
 - **Vinyl cover**: the artwork becomes a spinning record with a tonearm (slow, medium or fast).
-- **Motion art**: animated Apple Music covers.
 - **Sneak Peek**: when the song changes, the title and artist appear under the notch for a moment.
 
 ### Calendar
@@ -393,7 +393,7 @@ Open from the gear in the Lagoons bar, the island's right-click menu or the menu
 - **General** — language (English / Portuguese / system), open at login, open on hover, delays, Lagoon to open, shortcuts.
 - **Displays** — which screens get an island and where.
 - **Appearance** — style (black, Liquid Glass), accent colour, closed island width/height/distance from the top, open island size and corners, bubble size and count, Lagoons bar always visible or on hover, animation speed, Lagoon order.
-- **Activities** — what the closed island shows, music options (vinyl, motion art, Sneak Peek), Spotify, weather, notifications, HUD.
+- **Activities** — what the closed island shows, music options (vinyl, Sneak Peek), Spotify, weather, notifications, HUD.
 - **Tools** — Clip, clipboard, converter and timer options.
 - **Plugins** — installed plugins and the Marketplace.
 - **Permissions** — status of every permission with a button to grant it.
@@ -420,6 +420,17 @@ Logins (Spotify) are stored in the macOS Keychain.
 - **Browser tabs don't show in the music player** — allow AppleScript control of the browser when macOS asks, and turn on *Allow JavaScript from Apple Events* (Chrome-based: *View → Developer*; Safari: *Settings → Advanced → Show features for web developers*, then *Develop*).
 - **Spotify Like/Queue/Recents stopped working** — Spotify may have asked Lagoon to wait (the island shows until when), or you need to connect the account again after an update that added a permission.
 - **Something froze or crashed** — look at `~/Library/Logs/Lagoon.log` and open an issue with the last lines.
+
+## Acknowledgements
+
+Lagoon uses these open-source components and services (full notices in the app: **Settings → General → Credits and licenses**):
+
+| | | License |
+|---|---|---|
+| [mediaremote-adapter](https://github.com/ungive/mediaremote-adapter) | Reads what is playing (macOS 15.4+) | BSD 3-Clause |
+| [Sparkle](https://sparkle-project.org) | Automatic updates | MIT |
+| [Open-Meteo](https://open-meteo.com) | Weather data | CC BY 4.0 |
+| [LRCLIB](https://lrclib.net) | Synced lyrics | — |
 
 ## Feedback
 

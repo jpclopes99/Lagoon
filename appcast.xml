@@ -7,112 +7,13 @@
     <language>en</language>
     <!-- versões (a mais recente primeiro; acrescentadas pelo scripts/release.sh) -->
     <item>
-      <title>Lagoon 1.0.11</title>
-      <pubDate>Fri, 23 Oct 2026 21:32:37 +0100</pubDate>
-      <sparkle:version>13</sparkle:version>
-      <sparkle:shortVersionString>1.0.11</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Update checks always fetch the newest list of versions.</p>]]></description>
-      <enclosure url="https://github.com/jpclopes99/Lagoon/releases/download/v1.0.11/Lagoon.zip" type="application/octet-stream" sparkle:edSignature="a1Nu0jlfHF6hV77DGgTwY9Dp7SAIYD0k1UfUYqbJs6ptjEBIShp40nK3x4U1PvIGyFnytWxiZLyLSddeJax8BQ==" length="6075313"/>
-    </item>
-    <item>
-      <title>Lagoon 1.0.10</title>
-      <pubDate>Fri, 23 Oct 2026 21:25:45 +0100</pubDate>
-      <sparkle:version>12</sparkle:version>
-      <sparkle:shortVersionString>1.0.10</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Test release for the update alert on the island.</p>]]></description>
-      <enclosure url="https://github.com/jpclopes99/Lagoon/releases/download/v1.0.10/Lagoon.zip" type="application/octet-stream" sparkle:edSignature="Go4VU8fqOixAzwWtaQSNP6n2pB43OYOTBds/lMhwbkSq5j9aDLDiZltVH5VI8Ejgwyrdk3RQrwHCRafs9+5dBQ==" length="6069481"/>
-    </item>
-    <item>
-      <title>Lagoon 1.0.9</title>
-      <pubDate>Fri, 23 Oct 2026 21:23:29 +0100</pubDate>
-      <sparkle:version>11</sparkle:version>
-      <sparkle:shortVersionString>1.0.9</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>New versions are announced on the island, with an Install button. Updates always go straight to the newest version.</p>]]></description>
-      <enclosure url="https://github.com/jpclopes99/Lagoon/releases/download/v1.0.9/Lagoon.zip" type="application/octet-stream" sparkle:edSignature="lmzm7jWt2CcWbpeEz8jJNDdoCsZ8vnUj1syMt1rvzRI7bbRB7cjmS2GnYg2Q4SL5OywcCBO2Id1e1UhOL6qWBg==" length="6069479"/>
-    </item>
-    <item>
-      <title>Lagoon 1.0.8</title>
-      <pubDate>Fri, 23 Oct 2026 21:12:04 +0100</pubDate>
-      <sparkle:version>10</sparkle:version>
-      <sparkle:shortVersionString>1.0.8</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Test release for the update notification.</p>]]></description>
-      <enclosure url="https://github.com/jpclopes99/Lagoon/releases/download/v1.0.8/Lagoon.zip" type="application/octet-stream" sparkle:edSignature="s9fUe7e67ZEwGZm/nrfis/UPmGK3ZfsGiULC+NFK9jboL9DCBYEb+acm5pIJNWKKoTRxaRg4FiVW0g4byKipCQ==" length="6067441"/>
-    </item>
-    <item>
-      <title>Lagoon 1.0.7</title>
-      <pubDate>Fri, 23 Oct 2026 21:09:46 +0100</pubDate>
-      <sparkle:version>9</sparkle:version>
-      <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Lagoon now checks for updates a few seconds after you unlock the screen, so the update notification shows up while you are looking.</p>]]></description>
-      <enclosure url="https://github.com/jpclopes99/Lagoon/releases/download/v1.0.7/Lagoon.zip" type="application/octet-stream" sparkle:edSignature="zSaXtYpEo3TF+lPdBe7DhHM9ccdjBQQLnMPhsBri0GsGOijAmWNCh+lC30gFTjVzP4u9TFruAow7fuSgVXrSBw==" length="6067430"/>
-    </item>
-    <item>
-      <title>Lagoon 1.0.6</title>
-      <pubDate>Fri, 23 Oct 2026 19:33:27 +0100</pubDate>
-      <sparkle:version>8</sparkle:version>
-      <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Maintenance release.</p>]]></description>
-      <enclosure url="https://github.com/jpclopes99/Lagoon/releases/download/v1.0.6/Lagoon.zip" type="application/octet-stream" sparkle:edSignature="Rbkv4hR9ADtA2FIdccrCD0FmUyjQoLmbdmsQx87gO0/CWtKUKL1fKGmVk/Sch2WBjFFCsu4sPAQ9qpRBcfi1Dw==" length="6065275"/>
-    </item>
-    <item>
-      <title>Lagoon 1.0.5</title>
-      <pubDate>Fri, 23 Oct 2026 19:23:56 +0100</pubDate>
-      <sparkle:version>7</sparkle:version>
-      <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Test release for the update notification.</p>]]></description>
-      <enclosure url="https://github.com/jpclopes99/Lagoon/releases/download/v1.0.5/Lagoon.zip" type="application/octet-stream" sparkle:edSignature="iEFOqUGOktqzdpEzCFtIBG/rUgyV87+oF9yP0C00PyQ1XkUPgdH9GPwpTarugPAcJUssN05lWtta6MC3JZ0xDQ==" length="6065278"/>
-    </item>
-    <item>
-      <title>Lagoon 1.0.4</title>
-      <pubDate>Fri, 23 Oct 2026 19:22:30 +0100</pubDate>
-      <sparkle:version>6</sparkle:version>
-      <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>New versions are announced with a notification: click Install to open the update window. Lagoon also checks for updates when it opens and when the Mac wakes up.</p>]]></description>
-      <enclosure url="https://github.com/jpclopes99/Lagoon/releases/download/v1.0.4/Lagoon.zip" type="application/octet-stream" sparkle:edSignature="4gzVdZfjsLWFhqVSr6ZwW5onRzCir8zAe6X9cr5iWx6lScRYqzYh0nYpfqYPB3WuX5/65WBOlRvBezvNvaIqDw==" length="6065280"/>
-    </item>
-    <item>
-      <title>Lagoon 1.0.3</title>
-      <pubDate>Fri, 23 Oct 2026 19:13:14 +0100</pubDate>
-      <sparkle:version>5</sparkle:version>
-      <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Test release for automatic updates.</p>]]></description>
-      <enclosure url="https://github.com/jpclopes99/Lagoon/releases/download/v1.0.3/Lagoon.zip" type="application/octet-stream" sparkle:edSignature="bT+euQUzxTP8qcRYPtXdOFEPW1f4IJQ2LsA0Q16U3APXQo3VOBjpb3OrpjfVZgJVrLsozc/9VCyMff68PHklDg==" length="6058144"/>
-    </item>
-    <item>
-      <title>Lagoon 1.0.2</title>
-      <pubDate>Fri, 23 Oct 2026 19:08:55 +0100</pubDate>
-      <sparkle:version>4</sparkle:version>
-      <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Update windows (new version, download progress) now open below the island instead of under the notch.</p>]]></description>
-      <enclosure url="https://github.com/jpclopes99/Lagoon/releases/download/v1.0.2/Lagoon.zip" type="application/octet-stream" sparkle:edSignature="j/bynEd694jAGO6DKzlUfwYTRbytmthDhb4tKss5AkdleenpujOoAFdwh3duFBgJEQgMiozASagJJDo5cH7HBA==" length="6058144"/>
-    </item>
-    <item>
-      <title>Lagoon 1.0.1</title>
-      <pubDate>Fri, 23 Oct 2026 19:05:49 +0100</pubDate>
-      <sparkle:version>3</sparkle:version>
-      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Automatic updates: Lagoon checks for new versions and installs them from inside the app (Settings → General → Updates, or Check for Updates… in the menu bar).</p>]]></description>
-      <enclosure url="https://github.com/jpclopes99/Lagoon/releases/download/v1.0.1/Lagoon.zip" type="application/octet-stream" sparkle:edSignature="JFQ2gJ3b5jR5mx2+kN9wDkopqjxrPLlZXXMxcZBmVtZJdM2ckM4baXJpxpaOJZaV68BN4ZKFuzoI2fWwAXnTDQ==" length="6058145"/>
-    </item>
-    <item>
       <title>Lagoon 1.0.0</title>
-      <pubDate>Fri, 23 Oct 2026 19:05:29 +0100</pubDate>
-      <sparkle:version>2</sparkle:version>
+      <pubDate>Fri, 23 Oct 2026 21:57:39 +0100</pubDate>
+      <sparkle:version>14</sparkle:version>
       <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>First public release of Lagoon.</p>]]></description>
-      <enclosure url="https://github.com/jpclopes99/Lagoon/releases/download/v1.0.0/Lagoon.zip" type="application/octet-stream" sparkle:edSignature="A7q++6MY1aHWT9QbNgWVFbwrHSTSfi7iYYnGGKwHj/hD/t2AvOQ8yyzUfGbpeju8ljymBBQSMm+RguXpU/tjBA==" length="6058140"/>
+      <description><![CDATA[<p>First public release of Lagoon: a Dynamic Island for the Mac notch, with music, calendar, timers, notifications, files, calls, AI agents, plugins and automatic updates.</p>]]></description>
+      <enclosure url="https://github.com/jpclopes99/Lagoon/releases/download/v1.0.0/Lagoon.zip" type="application/octet-stream" sparkle:edSignature="soW5xRr4lQgI7+mXpLjBqPIGh6edEeJbQS/wkzvNEp6MnxMr+oh21WPBw6AxoNAlFaFJTUBwONmEfQcHEuMBAg==" length="6018704"/>
     </item>
   </channel>
 </rss>

@@ -33,7 +33,7 @@ curl -fsSL https://raw.githubusercontent.com/jpclopes99/Lagoon/main/install.sh |
 - **Música:**
   - Leitores: qualquer leitor (Spotify, Music, YouTube Music e browsers como Chrome, Safari…).
   - Controlos: fila, letra, recentes, gosto do Spotify, saída de áudio, volume e lista de leitores.
-  - Capa: normal, em vinil ou animada (Apple Music). O README tem imagens com e sem vinil.
+  - Capa: normal ou em vinil. O README tem imagens das duas.
 - **Calendário:** semana, eventos, lembretes e aviso de reunião com o botão "Join".
 - **Timers:** régua e vários timers ao mesmo tempo. ⌥⌘T ou ⌘ + clique no notch inicia um timer rápido.
 - **Stay Awake:** mantém o Mac acordado (⌥⌘A).
@@ -81,6 +81,10 @@ Não há conta nem estatísticas de uso. Só sai informação do Mac para:
 - os limites do Claude e do Copilot no plugin Agents (opcional).
 
 Os logins ficam no Porta-chaves do macOS.
+
+## Créditos
+
+A Lagoon usa o mediaremote-adapter (BSD 3-Clause), o Sparkle (MIT), os dados meteorológicos do Open-Meteo (CC BY 4.0) e as letras do LRCLIB. Os avisos completos estão na app, em Definições → Geral → Créditos e licenças.
 
 ## Sugestões e problemas
 
