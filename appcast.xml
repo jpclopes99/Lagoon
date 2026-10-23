@@ -8,21 +8,21 @@
     <!-- versões (a mais recente primeiro; acrescentadas pelo scripts/release.sh) -->
     <item>
       <title>Lagoon 1.0.1</title>
-      <pubDate>Fri, 23 Oct 2026 18:52:34 +0100</pubDate>
+      <pubDate>Fri, 23 Oct 2026 19:05:49 +0100</pubDate>
       <sparkle:version>3</sparkle:version>
       <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<p>Automatic updates: Lagoon checks for new versions and installs them from inside the app (Settings → General → Updates, or Check for Updates… in the menu bar).</p>]]></description>
-      <enclosure url="https://github.com/jpclopes99/Lagoon/releases/download/v1.0.1/Lagoon.zip" type="application/octet-stream" sparkle:edSignature="3PmRB+cxf01hd+clzIFTLShjWGII9aWqKmx6hPhv1RxoYlFOaRLk/8Dn39j+IL9HyW7jg0b+KadmhauPM2sgAQ==" length="6054609"/>
+      <enclosure url="https://github.com/jpclopes99/Lagoon/releases/download/v1.0.1/Lagoon.zip" type="application/octet-stream" sparkle:edSignature="JFQ2gJ3b5jR5mx2+kN9wDkopqjxrPLlZXXMxcZBmVtZJdM2ckM4baXJpxpaOJZaV68BN4ZKFuzoI2fWwAXnTDQ==" length="6058145"/>
     </item>
     <item>
       <title>Lagoon 1.0.0</title>
-      <pubDate>Fri, 23 Oct 2026 18:51:41 +0100</pubDate>
+      <pubDate>Fri, 23 Oct 2026 19:05:29 +0100</pubDate>
       <sparkle:version>2</sparkle:version>
       <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<p>First public release of Lagoon.</p>]]></description>
-      <enclosure url="https://github.com/jpclopes99/Lagoon/releases/download/v1.0.0/Lagoon.zip" type="application/octet-stream" sparkle:edSignature="cu1yneA1YJapEbteft4CX/cmCU+6ZpOt6HAm9sZViV3eNgJEFAyqzSIaMZ0LqU8z/eviTFQFe11gikbw8ZLDAQ==" length="6054608"/>
+      <enclosure url="https://github.com/jpclopes99/Lagoon/releases/download/v1.0.0/Lagoon.zip" type="application/octet-stream" sparkle:edSignature="A7q++6MY1aHWT9QbNgWVFbwrHSTSfi7iYYnGGKwHj/hD/t2AvOQ8yyzUfGbpeju8ljymBBQSMm+RguXpU/tjBA==" length="6058140"/>
     </item>
   </channel>
 </rss>
