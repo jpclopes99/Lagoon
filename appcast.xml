@@ -7,6 +7,15 @@
     <language>en</language>
     <!-- versões (a mais recente primeiro; acrescentadas pelo scripts/release.sh) -->
     <item>
+      <title>Lagoon 1.0.11</title>
+      <pubDate>Fri, 23 Oct 2026 21:32:37 +0100</pubDate>
+      <sparkle:version>13</sparkle:version>
+      <sparkle:shortVersionString>1.0.11</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>Update checks always fetch the newest list of versions.</p>]]></description>
+      <enclosure url="https://github.com/jpclopes99/Lagoon/releases/download/v1.0.11/Lagoon.zip" type="application/octet-stream" sparkle:edSignature="a1Nu0jlfHF6hV77DGgTwY9Dp7SAIYD0k1UfUYqbJs6ptjEBIShp40nK3x4U1PvIGyFnytWxiZLyLSddeJax8BQ==" length="6075313"/>
+    </item>
+    <item>
       <title>Lagoon 1.0.10</title>
       <pubDate>Fri, 23 Oct 2026 21:25:45 +0100</pubDate>
       <sparkle:version>12</sparkle:version>
