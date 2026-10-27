@@ -15,23 +15,5 @@
       <description><![CDATA[<p>Spotify: each person now uses the Client ID of their own Spotify app (step-by-step guide in Settings and in the README); Lagoon no longer ships one. Song lyrics were removed. A browser that stops responding no longer freezes the music player. Updated README.</p>]]></description>
       <enclosure url="https://github.com/jpclopes99/Lagoon/releases/download/v1.0.2/Lagoon.zip" type="application/octet-stream" sparkle:edSignature="TK1EsXKRbGOxr7tS0k826eacfmFxm35FCPADBga/fV8wsfp7BAEjtqETy/p+d/d+Xjpv/0RoTkyMq+oGuSrZDQ==" length="5962775"/>
     </item>
-    <item>
-      <title>Lagoon 1.0.1</title>
-      <pubDate>Tue, 27 Oct 2026 10:30:26 +0000</pubDate>
-      <sparkle:version>16</sparkle:version>
-      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Fixes the keychain password window that kept appearing for the Claude Code login (Agents plugin). If macOS asks for permission, the Agents usage panel now shows an Allow access button: choose Always Allow once. Installed plugins now update together with the app.</p>]]></description>
-      <enclosure url="https://github.com/jpclopes99/Lagoon/releases/download/v1.0.1/Lagoon.zip" type="application/octet-stream" sparkle:edSignature="stwFzjikRXUhFh+D6uIw7/AyIbguFoR1tYB7XGIaWCxhUmpSt/9frdmA9GwcW0ntCOCO3HOnUcK4WRlGhu5pAQ==" length="6027192"/>
-    </item>
-    <item>
-      <title>Lagoon 1.0.0</title>
-      <pubDate>Fri, 23 Oct 2026 22:15:55 +0100</pubDate>
-      <sparkle:version>15</sparkle:version>
-      <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>First public release of Lagoon: a Dynamic Island for the Mac notch, with music, calendar, timers, notifications, files, calls, AI agents, plugins and automatic updates.</p>]]></description>
-      <enclosure url="https://github.com/jpclopes99/Lagoon/releases/download/v1.0.0/Lagoon.zip" type="application/octet-stream" sparkle:edSignature="K4Ljxd/ghxyrctUr/PL6E3B1G1dmSzHlq1uv9kHxwDVcxVI8Yv5m2QhoSB+T1G6U1NmbxBvCcmkCcFAPRdXiAw==" length="6018829"/>
-    </item>
   </channel>
 </rss>
