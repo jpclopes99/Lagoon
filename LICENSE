@@ -26,7 +26,7 @@ licenses. Lagoon includes:
 Their full license texts are included inside the app (Settings > General >
 Credits and licenses, or Lagoon.app/Contents/Resources/ThirdPartyNotices.txt).
 Lagoon also uses data from online services under their own terms: weather data
-by Open-Meteo.com (CC BY 4.0) and lyrics from LRCLIB (https://lrclib.net).
+by Open-Meteo.com (CC BY 4.0).
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,

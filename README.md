@@ -16,6 +16,7 @@
 - [What is Lagoon?](#what-is-lagoon)
 - [Requirements](#requirements)
 - [Install](#install)
+- [Updates](#updates)
 - [First run and permissions](#first-run-and-permissions)
 - [How it works](#how-it-works)
 - [The Lagoons](#the-lagoons)
@@ -60,13 +61,21 @@ Open **Terminal** and paste:
 curl -fsSL https://raw.githubusercontent.com/jpclopes99/Lagoon/main/install.sh | bash
 ```
 
-It downloads the latest version, puts **Lagoon** in your Applications folder and opens it. To **update**, run the same command again: your settings and permissions are kept.
+It downloads the latest version, puts **Lagoon** in your Applications folder and opens it.
 
 Prefer to do it by hand? Download `Lagoon.zip` from the [latest release](https://github.com/jpclopes99/Lagoon/releases/latest), unzip it and drag **Lagoon** to Applications. The first time, macOS says it can't verify the developer: open **System Settings → Privacy & Security** and click **Open Anyway** (only once).
 
 To uninstall, quit Lagoon from its menu bar icon and move it from Applications to the Trash.
 
 Lagoon lives in the **menu bar** (no Dock icon). To open it at login, turn on **Settings → General → Open at login**.
+
+## Updates
+
+Lagoon updates itself. It checks for new versions when it opens, when you unlock your Mac and once a day. When there is one, a notice appears on the island (and in Notification Center) with an **Install** button: Lagoon downloads it, replaces itself and reopens, keeping your settings and permissions. Installed plugins are updated together with the app.
+
+- Check by hand: **Check for Updates…** in the menu bar icon, or **Settings → General → Updates**.
+- Turn automatic checks or automatic installs on or off in **Settings → General → Updates**.
+- Every update is signed: Lagoon only installs versions published by its author.
 
 ## First run and permissions
 
@@ -109,9 +118,9 @@ Works with **any player**: Spotify, Apple Music, YouTube Music, and video or mus
 - Big controls, clickable progress bar, shuffle, repeat (all / one), volume, audio output picker.
 - **Players** button: every app and browser tab that is playing, so you can switch between them.
 - **Up Next** queue (Spotify, Apple Music, YouTube and YouTube Music), with drag to reorder.
-- **Synced lyrics** (from LRCLIB, free, no account) — Spotify.
 - **Recents** — the albums, playlists and Liked Songs you played recently on Spotify, one click to play.
 - **Like** button for Spotify (works both ways with the Spotify app) and Apple Music.
+- Spotify's Up Next, Like and Recents need a free Spotify app of your own — see [Spotify](#spotify).
 - **Vinyl cover**: the artwork becomes a spinning record with a tonearm (slow, medium or fast).
 - **Sneak Peek**: when the song changes, the title and artist appear under the notch for a moment.
 
@@ -339,6 +348,8 @@ Live CPU, memory, GPU, disk, network, battery and temperature.
 
 Follow Claude Code, Codex, Gemini CLI and GitHub Copilot sessions — working, waiting for you, subagents — plus usage and plan limits.
 
+To show the Claude plan limits, Lagoon reads your Claude Code login from the macOS Keychain. It never asks on its own: if macOS needs your permission, the usage panel shows **Allow access** — click it once and choose **Always Allow**.
+
 ### Microsoft Teams / Zoom
 
 <p><img src="docs/images/call.png" width="512" alt="Meeting controls"><br><img src="docs/images/live-teams.png" height="34" alt="Meeting on the closed island"></p>
@@ -362,14 +373,23 @@ Plugins are either **native** (Swift, shipped with the app and switched on by th
 
 - **Three sizes** (small pill, medium square, large portrait), on the desktop or floating above windows.
 - **Themes**: album colour, black, Liquid Glass, clear glass, dynamic glass.
-- Large widget: progress, volume, output, **Up Next**, **lyrics**, **recents** and **players**.
+- Large widget: progress, volume, output, **Up Next**, **recents** and **players**.
 - **Vinyl or normal cover** (the vinyl spins slow, medium or fast); tapping the cover plays/pauses.
 - **Menu bar player**: artwork and play/pause in the menu bar; click to open a small player under the island.
 - Right-click the widget for all its options.
 
 ## Spotify
 
-Basic control (play, pause, skip, artwork) works out of the box through AppleScript. For the extras — **Like**, **Up Next**, **Recents** and **repeat one** — connect your account in **Settings → Activities → Spotify → Connect**. Lagoon uses the Spotify Web API with your login and asks Spotify as little as possible (Spotify limits how many requests an app can make; if it asks Lagoon to wait, the island tells you until when).
+Basic control (play, pause, skip, artwork) works out of the box through AppleScript, with no setup.
+
+The extras — **Like**, **Up Next**, **Recents** and **repeat one** — use the Spotify Web API, which needs a free Spotify app of your own (Spotify only lets each app connect accounts its owner allows, so Lagoon can't ship one for everyone). It takes about 2 minutes:
+
+1. Open the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard), sign in with your Spotify account and click **Create app**.
+2. Give it any name and description, tick **Web API**, and under **Redirect URIs** add exactly `http://127.0.0.1:8957/callback`. Save.
+3. Copy the app's **Client ID**.
+4. In Lagoon, open **Settings → Activities → Spotify**, paste the Client ID and click **Connect to Spotify**.
+
+Lagoon asks Spotify as little as possible (Spotify limits how many requests an app can make; if it asks Lagoon to wait, the island tells you until when).
 
 ## Keyboard shortcuts and gestures
 
@@ -390,7 +410,7 @@ Shortcuts can be turned off in Settings.
 
 Open from the gear in the Lagoons bar, the island's right-click menu or the menu bar icon. While Settings are open the island stays open, so you see changes live.
 
-- **General** — language (English / Portuguese / system), open at login, open on hover, delays, Lagoon to open, shortcuts.
+- **General** — language (English / Portuguese / system), open at login, updates, credits and licenses, open on hover, delays, Lagoon to open, shortcuts.
 - **Displays** — which screens get an island and where.
 - **Appearance** — style (black, Liquid Glass), accent colour, closed island width/height/distance from the top, open island size and corners, bubble size and count, Lagoons bar always visible or on hover, animation speed, Lagoon order.
 - **Activities** — what the closed island shows, music options (vinyl, Sneak Peek), Spotify, weather, notifications, HUD.
@@ -405,11 +425,11 @@ Lagoon runs on your Mac. It has no account and no analytics. Data only leaves yo
 | Feature | Talks to |
 |---|---|
 | Weather | [Open-Meteo](https://open-meteo.com) (free, no account), with your city or approximate location |
-| Lyrics | LRCLIB, with the song title and artist |
-| Spotify extras | Spotify, with your login |
+| Spotify extras | Spotify, with your login and your own Spotify app's Client ID |
 | Shortcuts link icons | The website of each link (to fetch its icon) |
 | Agents usage (optional) | Anthropic, with your Claude Code login; GitHub, with your `gh` login |
 | iCloud link | Your iCloud Drive |
+| Updates | GitHub (the list of versions and the update itself) |
 
 Logins (Spotify) are stored in the macOS Keychain.
 
@@ -419,6 +439,8 @@ Logins (Spotify) are stored in the macOS Keychain.
 - **macOS says Lagoon can't be opened** — install it with the Terminal command above, or open **System Settings → Privacy & Security** and click **Open Anyway**.
 - **Browser tabs don't show in the music player** — allow AppleScript control of the browser when macOS asks, and turn on *Allow JavaScript from Apple Events* (Chrome-based: *View → Developer*; Safari: *Settings → Advanced → Show features for web developers*, then *Develop*).
 - **Spotify Like/Queue/Recents stopped working** — Spotify may have asked Lagoon to wait (the island shows until when), or you need to connect the account again after an update that added a permission.
+- **"This Spotify account isn't allowed for the Client ID"** — the Client ID in Settings must be from a Spotify app you created yourself (see [Spotify](#spotify)).
+- **macOS keeps asking for the "Claude Code-credentials" password** — update Lagoon: it no longer asks on its own. Use **Allow access** in the Agents usage panel and choose **Always Allow**.
 - **Something froze or crashed** — look at `~/Library/Logs/Lagoon.log` and open an issue with the last lines.
 
 ## Acknowledgements
@@ -430,7 +452,6 @@ Lagoon uses these open-source components and services (full notices in the app: 
 | [mediaremote-adapter](https://github.com/ungive/mediaremote-adapter) | Reads what is playing (macOS 15.4+) | BSD 3-Clause |
 | [Sparkle](https://sparkle-project.org) | Automatic updates | MIT |
 | [Open-Meteo](https://open-meteo.com) | Weather data | CC BY 4.0 |
-| [LRCLIB](https://lrclib.net) | Synced lyrics | — |
 
 ## Feedback
 
@@ -438,4 +459,4 @@ Found a bug or have an idea? **[Open an issue](https://github.com/jpclopes99/Lag
 
 ## License
 
-**All rights reserved.** Lagoon is free to download, install and use on your own Macs, but it is **not open source**: the source code is not published, and you may not copy, modify or redistribute the app without the author's written permission. See [LICENSE](LICENSE) for the full terms. Third-party components are not covered by it and keep their own licenses: [mediaremote-adapter](https://github.com/ungive/mediaremote-adapter) (BSD 3-Clause) and [Sparkle](https://sparkle-project.org) (MIT); weather data comes from [Open-Meteo](https://open-meteo.com) (CC BY 4.0) and lyrics from [LRCLIB](https://lrclib.net). See [Acknowledgements](#acknowledgements).
+**All rights reserved.** Lagoon is free to download, install and use on your own Macs, but it is **not open source**: the source code is not published, and you may not copy, modify or redistribute the app without the author's written permission. See [LICENSE](LICENSE) for the full terms. Third-party components are not covered by it and keep their own licenses: [mediaremote-adapter](https://github.com/ungive/mediaremote-adapter) (BSD 3-Clause) and [Sparkle](https://sparkle-project.org) (MIT); weather data comes from [Open-Meteo](https://open-meteo.com) (CC BY 4.0). See [Acknowledgements](#acknowledgements).

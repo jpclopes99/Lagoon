@@ -15,7 +15,7 @@ curl -fsSL https://raw.githubusercontent.com/jpclopes99/Lagoon/main/install.sh |
 ```
 
 - O comando descarrega a última versão, põe a Lagoon em Aplicações e abre-a.
-- Para **atualizar**, corre o mesmo comando. As definições e as permissões ficam.
+- **Atualizações:** a Lagoon atualiza-se sozinha. Procura versões novas ao abrir, ao desbloquear o Mac e uma vez por dia; quando há uma, aparece um aviso na ilha (e no Centro de Notificações) com o botão **Instalar**. As definições, as permissões e os plugins ficam. Também há "Procurar atualizações…" no ícone da barra de menus e em Definições → Geral → Atualizações.
 - **À mão:** descarrega o `Lagoon.zip` da [última versão](https://github.com/jpclopes99/Lagoon/releases/latest) e arrasta a Lagoon para Aplicações. Na primeira vez o macOS diz que não consegue verificar o programador: vai a **Definições do Sistema → Privacidade e Segurança → Abrir mesmo assim** (só uma vez).
 - Precisa de macOS 14 ou mais recente. O Liquid Glass precisa de macOS 26.
 - A app fica na barra de menus, sem ícone na Dock. "Abrir ao iniciar sessão" está em Definições → Geral.
@@ -32,7 +32,7 @@ curl -fsSL https://raw.githubusercontent.com/jpclopes99/Lagoon/main/install.sh |
 
 - **Música:**
   - Leitores: qualquer leitor (Spotify, Music, YouTube Music e browsers como Chrome, Safari…).
-  - Controlos: fila, letra, recentes, gosto do Spotify, saída de áudio, volume e lista de leitores.
+  - Controlos: fila, recentes, gosto do Spotify, saída de áudio, volume e lista de leitores.
   - Capa: normal ou em vinil. O README tem imagens das duas.
 - **Calendário:** semana, eventos, lembretes e aviso de reunião com o botão "Join".
 - **Timers:** régua e vários timers ao mesmo tempo. ⌥⌘T ou ⌘ + clique no notch inicia um timer rápido.
@@ -61,7 +61,7 @@ Estão em Definições → Plugins, com os separadores Instalados e Marketplace:
 - **Termi-Notch:** comandos da shell.
 - **Audio Control:** volume por app.
 - **System Stats:** estado do Mac.
-- **Agents:** Claude Code e Copilot.
+- **Agents:** Claude Code e Copilot. Para os limites do Claude, se o macOS pedir autorização, carrega em **Permitir acesso** no painel de utilização e escolhe **Permitir sempre** (a Lagoon nunca pede sozinha).
 - **Teams** e **Zoom:** controlos de reunião.
 - **Downloads** do Chrome, Safari e Firefox.
 
@@ -69,13 +69,19 @@ Também podes carregar um plugin teu (JavaScript) a partir de uma pasta, em Defi
 
 ## Spotify
 
-O básico funciona logo, sem configurar nada. Para o gosto, a fila, os recentes e o repetir uma música, liga a conta em Definições → Atividades → Spotify. O Spotify limita os pedidos que cada app pode fazer: se pedir para esperar, a ilha diz até que horas.
+O básico (tocar, pausar, avançar e a capa) funciona logo, sem configurar nada. O gosto, a fila, os recentes e o repetir uma música precisam de uma app do Spotify tua, grátis:
+
+1. No [painel de programadores do Spotify](https://developer.spotify.com/dashboard), entra com a tua conta e carrega em **Create app**.
+2. Dá-lhe um nome qualquer, marca **Web API** e, em **Redirect URIs**, põe exatamente `http://127.0.0.1:8957/callback`.
+3. Copia o **Client ID**.
+4. Na Lagoon, em Definições → Atividades → Spotify, cola o Client ID e carrega em **Ligar ao Spotify**.
+
+O Spotify limita os pedidos que cada app pode fazer: se pedir para esperar, a ilha diz até que horas.
 
 ## Privacidade
 
 Não há conta nem estatísticas de uso. Só sai informação do Mac para:
 - a meteorologia (Open-Meteo);
-- a letra (LRCLIB);
 - o Spotify;
 - o ícone de cada link nos Shortcuts;
 - os limites do Claude e do Copilot no plugin Agents (opcional).
@@ -84,7 +90,7 @@ Os logins ficam no Porta-chaves do macOS.
 
 ## Créditos
 
-A Lagoon usa o mediaremote-adapter (BSD 3-Clause), o Sparkle (MIT), os dados meteorológicos do Open-Meteo (CC BY 4.0) e as letras do LRCLIB. Os avisos completos estão na app, em Definições → Geral → Créditos e licenças.
+A Lagoon usa o mediaremote-adapter (BSD 3-Clause), o Sparkle (MIT) e os dados meteorológicos do Open-Meteo (CC BY 4.0). Os avisos completos estão na app, em Definições → Geral → Créditos e licenças.
 
 ## Sugestões e problemas
 
@@ -92,4 +98,4 @@ Qualquer pessoa pode abrir uma issue no GitHub para reportar um problema ou suge
 
 ## Licença
 
-**Todos os direitos reservados** (ficheiro [LICENSE](../LICENSE)). Qualquer pessoa pode descarregar, instalar e usar a Lagoon de graça, mas não é open source: o código não é publicado e é proibido copiar, alterar ou distribuir a app sem autorização escrita do autor. Os componentes de terceiros não estão abrangidos por ela e mantêm as suas licenças: mediaremote-adapter (BSD 3-Clause) e Sparkle (MIT); os dados meteorológicos são do Open-Meteo (CC BY 4.0) e as letras do LRCLIB.
+**Todos os direitos reservados** (ficheiro [LICENSE](../LICENSE)). Qualquer pessoa pode descarregar, instalar e usar a Lagoon de graça, mas não é open source: o código não é publicado e é proibido copiar, alterar ou distribuir a app sem autorização escrita do autor. Os componentes de terceiros não estão abrangidos por ela e mantêm as suas licenças: mediaremote-adapter (BSD 3-Clause) e Sparkle (MIT); os dados meteorológicos são do Open-Meteo (CC BY 4.0).

@@ -7,6 +7,15 @@
     <language>en</language>
     <!-- versões (a mais recente primeiro; acrescentadas pelo scripts/release.sh) -->
     <item>
+      <title>Lagoon 1.0.2</title>
+      <pubDate>Tue, 27 Oct 2026 11:03:14 +0000</pubDate>
+      <sparkle:version>17</sparkle:version>
+      <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>Spotify: each person now uses the Client ID of their own Spotify app (step-by-step guide in Settings and in the README); Lagoon no longer ships one. Song lyrics were removed. A browser that stops responding no longer freezes the music player. Updated README.</p>]]></description>
+      <enclosure url="https://github.com/jpclopes99/Lagoon/releases/download/v1.0.2/Lagoon.zip" type="application/octet-stream" sparkle:edSignature="TK1EsXKRbGOxr7tS0k826eacfmFxm35FCPADBga/fV8wsfp7BAEjtqETy/p+d/d+Xjpv/0RoTkyMq+oGuSrZDQ==" length="5962775"/>
+    </item>
+    <item>
       <title>Lagoon 1.0.1</title>
       <pubDate>Tue, 27 Oct 2026 10:30:26 +0000</pubDate>
       <sparkle:version>16</sparkle:version>
