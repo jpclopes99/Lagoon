@@ -101,7 +101,7 @@ You can review all of them in **Settings → Permissions**.
 - **Open island** — hover (or click) to open it. It opens on the activity in the middle of the island; if there is none, on the last Lagoon you chose (or a fixed Lagoon from Settings).
 - **Lagoons bar** — the bar at the bottom of the open island lists every Lagoon. Lagoons that don't fit go to a `•••` page. You can show it always or only when the mouse reaches the bottom of the island.
 - **Swipe** with two fingers to move between Lagoons (a long swipe skips several).
-- **Right-click** the island for quick options (vinyl cover, Settings).
+- **Right-click** the island for quick options: vinyl cover and speed, show or hide the music widget, Settings.
 
 ## The Lagoons
 
@@ -402,7 +402,7 @@ Lagoon asks Spotify as little as possible (Spotify limits how many requests an a
 | **⌥⌘V** | Clipboard history |
 | **⌥⌘A** | Stay Awake on / off |
 | Two-finger swipe on the open island | Next / previous Lagoon |
-| Right-click the island | Quick options |
+| Right-click the island | Quick options (vinyl, music widget, Settings) |
 
 Shortcuts can be turned off in Settings.
 

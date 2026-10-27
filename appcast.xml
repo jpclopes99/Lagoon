@@ -7,6 +7,15 @@
     <language>en</language>
     <!-- versões (a mais recente primeiro; acrescentadas pelo scripts/release.sh) -->
     <item>
+      <title>Lagoon 1.0.3</title>
+      <pubDate>Tue, 27 Oct 2026 11:36:15 +0000</pubDate>
+      <sparkle:version>18</sparkle:version>
+      <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>Claude usage percentages now show even when your Claude Code sessions run in the Claude app: Lagoon renews the expired Claude Code login the same way Claude Code does. Spotify likes now sync reliably both ways. Right-click the island to show or hide the music widget.</p>]]></description>
+      <enclosure url="https://github.com/jpclopes99/Lagoon/releases/download/v1.0.3/Lagoon.zip" type="application/octet-stream" sparkle:edSignature="cbH0CVik5cALmB7QtjsBjXXtO3SJdAvtP3lE44EkThU8rbQxDd8OEbAdaFtKoi02iGQAkayQcdDHOO3aA+t9Cw==" length="5979530"/>
+    </item>
+    <item>
       <title>Lagoon 1.0.2</title>
       <pubDate>Tue, 27 Oct 2026 11:03:14 +0000</pubDate>
       <sparkle:version>17</sparkle:version>

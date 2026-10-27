@@ -26,7 +26,7 @@ curl -fsSL https://raw.githubusercontent.com/jpclopes99/Lagoon/main/install.sh |
 - **Abrir:** passar o rato ou clicar. Abre na atividade do meio; se não houver nenhuma, na última Lagoon que escolheste.
 - **Barra das Lagoons:** em baixo na ilha aberta. As Lagoons que não cabem ficam na página •••.
 - **Deslizar com dois dedos** muda de Lagoon.
-- **Botão direito** na ilha: vinil e Definições.
+- **Botão direito** na ilha: vinil, mostrar ou esconder o widget da música e Definições.
 
 ## Lagoons principais
 
