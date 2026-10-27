@@ -7,22 +7,13 @@
     <language>en</language>
     <!-- versões (a mais recente primeiro; acrescentadas pelo scripts/release.sh) -->
     <item>
-      <title>Lagoon 1.0.3</title>
-      <pubDate>Tue, 27 Oct 2026 11:36:15 +0000</pubDate>
-      <sparkle:version>18</sparkle:version>
-      <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+      <title>Lagoon 1.0.0</title>
+      <pubDate>Tue, 27 Oct 2026 12:04:56 +0000</pubDate>
+      <sparkle:version>19</sparkle:version>
+      <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Claude usage percentages now show even when your Claude Code sessions run in the Claude app: Lagoon renews the expired Claude Code login the same way Claude Code does. Spotify likes now sync reliably both ways. Right-click the island to show or hide the music widget.</p>]]></description>
-      <enclosure url="https://github.com/jpclopes99/Lagoon/releases/download/v1.0.3/Lagoon.zip" type="application/octet-stream" sparkle:edSignature="cbH0CVik5cALmB7QtjsBjXXtO3SJdAvtP3lE44EkThU8rbQxDd8OEbAdaFtKoi02iGQAkayQcdDHOO3aA+t9Cw==" length="5979530"/>
-    </item>
-    <item>
-      <title>Lagoon 1.0.2</title>
-      <pubDate>Tue, 27 Oct 2026 11:03:14 +0000</pubDate>
-      <sparkle:version>17</sparkle:version>
-      <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<p>Spotify: each person now uses the Client ID of their own Spotify app (step-by-step guide in Settings and in the README); Lagoon no longer ships one. Song lyrics were removed. A browser that stops responding no longer freezes the music player. Updated README.</p>]]></description>
-      <enclosure url="https://github.com/jpclopes99/Lagoon/releases/download/v1.0.2/Lagoon.zip" type="application/octet-stream" sparkle:edSignature="TK1EsXKRbGOxr7tS0k826eacfmFxm35FCPADBga/fV8wsfp7BAEjtqETy/p+d/d+Xjpv/0RoTkyMq+oGuSrZDQ==" length="5962775"/>
+      <description><![CDATA[<p>First release of Lagoon: a Dynamic Island for the Mac notch, with music, calendar, timers, notifications, files, calls, AI agents, plugins and automatic updates.</p>]]></description>
+      <enclosure url="https://github.com/jpclopes99/Lagoon/releases/download/v1.0.0/Lagoon.zip" type="application/octet-stream" sparkle:edSignature="hv5Ap+bu74OF94J4wj+ytQrYkp4yvrycb9YhXtaRXMTZv4qbL6kPiuMgXHXpAAqjowYuIIFDgQlJmyh9UjSgBA==" length="5979535"/>
     </item>
   </channel>
 </rss>
