@@ -64,6 +64,7 @@ Estão em Definições → Plugins, com os separadores Instalados e Marketplace:
 - **Agents:** Claude Code e Copilot. Para os limites do Claude, se o macOS pedir autorização, carrega em **Permitir acesso** no painel de utilização e escolhe **Permitir sempre** (a Lagoon nunca pede sozinha).
 - **Teams** e **Zoom:** controlos de reunião.
 - **Downloads** do Chrome, Safari e Firefox.
+- **EdgeDrop:** larga ficheiros no notch para os enviar ao telemóvel ligado no [EdgeDrop](https://github.com/jpclopes99/EdgeDrop), vê na ilha o envio e os ficheiros que chegam (com Abrir e Mostrar), e troca de dispositivo na Lagoon EdgeDrop ou no botão da barra. A Lagoon EdgeDrop guarda a lista dos ficheiros recebidos neste Mac, com o botão Limpar. Precisa do EdgeDrop 1.2 ou mais recente.
 
 Também podes carregar um plugin teu (JavaScript) a partir de uma pasta, em Definições → Plugins.
 

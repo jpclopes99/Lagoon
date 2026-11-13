@@ -243,6 +243,7 @@ When something is happening, the closed island shows it around the notch. Severa
 | <img src="docs/images/live-agents.png" height="34" alt=""> | **AI agent working** — Claude Code, Codex, Gemini or Copilot, with how long |
 | <img src="docs/images/live-agents-waiting.png" height="34" alt=""> | **AI agent waiting for you** |
 | <img src="docs/images/live-downloads.png" height="34" alt=""> | **Download progress** — browser icon, ring and time left |
+| <img src="docs/images/live-edgedrop.png" height="34" alt=""> | **Sending with EdgeDrop** — to the connected phone or tablet (EdgeDrop plugin) |
 | <img src="docs/images/live-awake.png" height="34" alt=""> | **Stay Awake** — time left (or ∞) |
 | <img src="docs/images/live-input.png" height="34" alt=""> | **Keyboard input source changed** (US, PT…) |
 | <img src="docs/images/live-caps.png" height="34" alt=""> | **Caps Lock** on/off |
@@ -278,6 +279,8 @@ Drag any file to the notch and four targets appear:
 - **Converter** — offline conversion: images (PNG, JPEG, HEIC, TIFF, GIF, BMP, ICO, ICNS, PDF, compress, 50%), audio (M4A, ALAC, WAV, AIFF, CAF), video (MP4, MOV, M4V, 720p, compress, GIF, audio only), PDF (text, images, compress), documents (PDF, DOCX, DOC, RTF, TXT, HTML, ODT, and Office files through Pages/Numbers/Keynote) and ZIP for anything.
 - **AirDrop** — send it.
 - **iCloud** — upload it and copy a share link.
+
+With the [EdgeDrop plugin](#edgedrop) a fifth target sends the files to your phone or tablet.
 
 ## Plugins and the Marketplace
 
@@ -361,6 +364,24 @@ Meeting controls on the island: mute, camera, screen sharing and leave, with the
 <p><img src="docs/images/downloads.png" width="512" alt="Downloads"><br><img src="docs/images/live-downloads.png" height="34" alt="Download on the closed island"></p>
 
 Download progress on the island and the list in the Downloads Lagoon.
+
+### EdgeDrop
+
+<p><img src="docs/images/edgedrop.png" width="512" alt="EdgeDrop Lagoon: the connected iPhone, other devices and the files received on this Mac"></p>
+<p>
+  <img src="docs/images/drop-edgedrop.png" width="420" alt="Dropping files on the notch: the iPhone target sends them with EdgeDrop">
+  <img src="docs/images/live-edgedrop-received.png" width="300" alt="Files received from the iPhone, with Open and Show">
+</p>
+<p><img src="docs/images/live-edgedrop.png" height="34" alt="Sending to the iPhone on the closed island"></p>
+
+Connects Lagoon to [EdgeDrop](https://github.com/jpclopes99/EdgeDrop), free file sharing between iPhone, iPad, Android and Mac:
+
+- **Drop files on the notch** and choose the device tile to send them to the phone or tablet EdgeDrop is connected to.
+- **On the closed island**: files being sent, and a notice with **Open** and **Show** when files arrive.
+- **EdgeDrop Lagoon**: which device files go to, switch device with one click (swipe sideways over the list when there are many), and the files received on this Mac, with **Clear**.
+- A **bar button** opens the EdgeDrop Lagoon; right-click it to pick the device. The **EdgeDrop** button in the Lagoon opens EdgeDrop's menu in the menu bar.
+
+Needs EdgeDrop 1.2 or later on the Mac. Everything stays on your Mac: the two apps talk locally, never over the network.
 
 Plugins are either **native** (Swift, shipped with the app and switched on by the plugin) or **JavaScript** (a folder with `manifest.json` and `plugin.js`, running in a sandboxed JavaScriptCore context with a permission-checked `lagoon` API). You can also load your own JavaScript plugin from a folder in **Settings → Plugins**.
 
