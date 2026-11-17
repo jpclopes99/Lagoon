@@ -9,6 +9,11 @@
 
 <p align="center"><img src="docs/images/hero.png" width="640" alt="The Lagoon island open on the Music Lagoon, with the Lagoons bar at the bottom"></p>
 
+<p align="center">
+  <a href="docs/video/lagoon.mp4"><img src="docs/images/video.png" width="640" alt="Watch the Lagoon video"></a><br>
+  <a href="docs/video/lagoon.mp4"><b>▶ Watch the video</b></a> (1 min 17 s)
+</p>
+
 ---
 
 ## Contents

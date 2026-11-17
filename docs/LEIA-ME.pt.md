@@ -2,6 +2,8 @@
 
 Versão curta do [README](../README.md) (que está em inglês), para leres depressa.
 
+<p align="center"><a href="video/lagoon.mp4"><img src="images/video.png" width="560" alt="Ver o vídeo da Lagoon"></a><br><a href="video/lagoon.mp4"><b>▶ Ver o vídeo</b></a> (1 min 17 s)</p>
+
 ## O que é
 
 Uma "Dynamic Island" grátis para o notch do Mac (ou o topo de qualquer ecrã sem notch). Fechada, mostra o que está a acontecer agora: música, timer, chamada, notificação. Ao passar o rato abre um painel maior, uma **Lagoon**, onde controlas tudo sem sair do que estás a fazer. Feita em Swift/SwiftUI, com aspeto preto ou Liquid Glass, e com um **Marketplace de plugins**.
