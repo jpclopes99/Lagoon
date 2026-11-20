@@ -7,6 +7,15 @@
     <language>en</language>
     <!-- versões (a mais recente primeiro; acrescentadas pelo scripts/release.sh) -->
     <item>
+      <title>Lagoon 1.0.3</title>
+      <pubDate>Fri, 20 Nov 2026 01:18:13 +0000</pubDate>
+      <sparkle:version>22</sparkle:version>
+      <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>Every browser tab playing sound now shows up in the Players list (Chrome, Safari, Edge, Brave, Arc…), even when Chrome has put some tabs to sleep to save memory.</p>]]></description>
+      <enclosure url="https://github.com/jpclopes99/Lagoon/releases/download/v1.0.3/Lagoon.zip" type="application/octet-stream" sparkle:edSignature="SFN9cwH5nxO/n2RndWCIj8whSqm/zOWFMD/cmhKtSelPARpJFgNkywPn0GfewLXv3R8wG+q0jafGm34e4WxECA==" length="6195676"/>
+    </item>
+    <item>
       <title>Lagoon 1.0.2</title>
       <pubDate>Wed, 18 Nov 2026 10:03:46 +0000</pubDate>
       <sparkle:version>21</sparkle:version>
